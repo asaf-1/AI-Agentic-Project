@@ -1,4 +1,4 @@
-# Amiio-Demo
+# Agentic AI-Demo
 
 Local-only Amiio-inspired demo platform built to showcase frontend delivery and E2E automation practices.
 
@@ -101,7 +101,7 @@ Open that folder as an Obsidian vault to get:
 
 ## Local preview credentials
 
-- Email: `analyst@amiio.local`
+- Email: `analyst@AI.local`
 - Password: `Demo123!`
 
 These are fake local demo credentials used only by the sample UI and automated tests.
