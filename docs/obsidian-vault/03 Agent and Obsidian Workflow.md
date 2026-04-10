@@ -29,6 +29,14 @@ Obsidian and the agent work together through plain files.
 - The daily Codex automation and the daily Jenkins schedule should still run the full `npm run test:e2e` regression.
 - Each user should connect their own Codex thread, daily automation, and standalone Jenkins job. Those machine-specific settings should live outside the repo.
 
+## Pre-Merge Rule
+
+- Before push from a local clone, the local pre-push gate should pass: `npm run test:e2e` and a Docker build for the current repo.
+- For code pushed to GitHub and intended for merge, Jenkins is the validation gate before merge.
+- Jenkins should validate the pushed revision before merge.
+- Merge only after all three checks are green: local Playwright, local Docker build, and Jenkins validation.
+- Obsidian task notes should record the local validation command, the Docker result, the Jenkins result, and the final merge decision.
+
 ## Why This Vault Lives Inside The Repo
 
 - The agent can access it without extra setup

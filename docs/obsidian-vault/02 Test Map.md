@@ -43,4 +43,6 @@
 - Daily Codex automation: run the full suite and write a report into `docs/obsidian-vault/Reports/`
 - Daily Jenkins pipeline: run the full suite on a schedule for CI visibility
 - Normal Jenkins validation: use Playwright `--only-changed=<base ref>` for test-only diffs, otherwise run the full suite
+- Local pre-push rule: block push unless `npm run test:e2e` and a local Docker build both pass
+- Pre-merge Jenkins rule: for code pushed to GitHub and intended for merge, Jenkins should validate the pushed revision before merge
 - Generated daily report files are local automation output and are not meant to be committed to Git

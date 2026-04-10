@@ -11,6 +11,9 @@
 - If changes touch `public/`, `server.js`, `framework/`, or `tests/`, run relevant Playwright coverage before finishing.
 - Prefer the smallest relevant command first, then expand if needed.
 - Report the exact validation command you ran and whether it passed.
+- Before a push from a local clone, require the local pre-push gate to pass: `npm run test:e2e` and a Docker build for the current repo.
+- For code that is pushed to GitHub and intended for merge, treat Jenkins validation on the pushed revision as the required gate before merge.
+- The merge rule for this repo is: local validation passed, local Docker validation passed, and Jenkins validation passed on the pushed code before merge.
 
 ## Editing Rules
 
