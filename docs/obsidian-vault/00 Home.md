@@ -1,6 +1,6 @@
-# Amiio Demo Vault
+# Agentic AI Demo Vault
 
-This folder is the Obsidian vault for the Amiio demo project.
+This folder is the Obsidian vault for the Agentic AI demo project.
 
 ## Start Here
 

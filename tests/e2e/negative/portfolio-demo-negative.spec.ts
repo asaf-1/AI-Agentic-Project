@@ -1,7 +1,7 @@
 import { invalidContactRequest } from "../../../framework/test-data/demoData";
 import { expect, test } from "../../../framework/fixtures/baseTest";
 
-test.describe("Amiio-Demo negative", () => {
+test.describe("Agentic AI Demo negative", () => {
   test.beforeEach(async ({ homePage }) => {
     await homePage.goto();
   });

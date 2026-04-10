@@ -2,7 +2,7 @@
 
 ## Purpose of This Project
 
-This project is a local demo platform inspired by Amiio's product direction. Its purpose is not just to show a UI, but to demonstrate a realistic frontend workflow together with reliable end-to-end automation.
+This project is a local Agentic AI demo platform. Its purpose is not just to show a UI, but to demonstrate a realistic frontend workflow together with reliable end-to-end automation.
 
 The website simulates a real estate operations product with AI-assisted workflows. It gives the user a realistic one-page product experience and also exposes interactive actions that are useful for automated testing.
 

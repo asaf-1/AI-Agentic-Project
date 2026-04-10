@@ -1,7 +1,7 @@
 export const bookingRequest = {
   fullName: "QA Engineer",
   workEmail: "qa.engineer@example.com",
-  company: "Amiio-Demo QA",
+  company: "Agentic AI QA",
   preferredDate: "2026-04-15",
   teamSize: "6-20"
 };
@@ -14,6 +14,6 @@ export const invalidContactRequest = {
 };
 
 export const validPreviewLogin = {
-  email: "analyst@amiio.local",
+  email: "analyst@agenticai.local",
   password: "Demo123!"
 };

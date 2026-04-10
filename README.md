@@ -1,10 +1,10 @@
-# Amiio-Demo
+# Agentic AI Demo
 
-Local-only Amiio-inspired demo platform built to showcase frontend delivery and E2E automation practices.
+Local-only Agentic AI demo platform built to showcase frontend delivery and E2E automation practices.
 
 ## What is included
 
-- A responsive one-page platform styled after the Amiio homepage direction
+- A responsive one-page platform styled for the Agentic AI project direction
 - Functional local workflows for report drafting, compliance scanning, demo booking, contact intake, and preview login
 - A zero-framework Node server with lightweight JSON endpoints
 - Playwright E2E coverage with positive flows and one negative validation case
@@ -101,7 +101,7 @@ Open that folder as an Obsidian vault to get:
 
 ## Local preview credentials
 
-- Email: `analyst@amiio.local`
+- Email: `analyst@agenticai.local`
 - Password: `Demo123!`
 
 These are fake local demo credentials used only by the sample UI and automated tests.

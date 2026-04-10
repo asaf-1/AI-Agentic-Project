@@ -265,7 +265,7 @@ async function handleApiRequest(request, response, pathname) {
     const payload = await parseRequestBody(request);
 
     if (
-      payload.email === "analyst@amiio.local" &&
+      payload.email === "analyst@agenticai.local" &&
       payload.password === "Demo123!"
     ) {
       sendJson(response, 200, {
@@ -323,7 +323,7 @@ const server = http.createServer(async (request, response) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`Amiio-Demo running at http://127.0.0.1:${PORT}`);
+  console.log(`Agentic AI Demo running at http://127.0.0.1:${PORT}`);
 });
 
 process.on("SIGTERM", () => server.close());

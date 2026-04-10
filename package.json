@@ -1,8 +1,8 @@
 {
-  "name": "amiio-demo",
+  "name": "agentic-ai-demo",
   "version": "1.0.0",
   "private": true,
-  "description": "Amiio-Demo local demo with Playwright E2E coverage.",
+  "description": "Agentic AI Demo local demo with Playwright E2E coverage.",
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
