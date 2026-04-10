@@ -9,3 +9,4 @@ test-results/
 docs/obsidian-vault/Reports/*
 !docs/obsidian-vault/Reports/README.md
 docs/obsidian-vault/.obsidian/
+LOCAL_SETUP_WINDOWS.md
