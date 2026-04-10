@@ -6,6 +6,7 @@ const slowMo = Number(process.env.PLAYWRIGHT_SLOW_MO || 0);
 
 export default defineConfig({
   testDir: "./tests/e2e",
+  tsconfig: "./tsconfig.json",
   outputDir: "./.artifacts/test-results",
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
