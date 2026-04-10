@@ -1,0 +1,11 @@
+node_modules/
+amiio-home.png
+.artifacts/
+test-results/
+.vscode/
+.codex/
+.env
+.env.*
+docs/obsidian-vault/Reports/*
+!docs/obsidian-vault/Reports/README.md
+docs/obsidian-vault/.obsidian/
