@@ -27,6 +27,7 @@ Obsidian and the agent work together through plain files.
 - Obsidian task notes stay the source of truth for scoped agent work.
 - Jenkins can use Playwright `--only-changed=<base ref>` for faster feedback when a diff only changes Playwright spec files.
 - The daily Codex automation and the daily Jenkins schedule should still run the full `npm run test:e2e` regression.
+- For non-timer Jenkins validation, run the repo in Docker first and then run the matching Playwright validation before merge.
 - Each user should connect their own Codex thread, daily automation, and standalone Jenkins job. Those machine-specific settings should live outside the repo.
 
 ## Pre-Merge Rule
@@ -34,7 +35,7 @@ Obsidian and the agent work together through plain files.
 - Before push from a local clone, the local pre-push gate should pass: `npm run test:e2e` and a Docker build for the current repo.
 - For code pushed to GitHub and intended for merge, Jenkins is the validation gate before merge.
 - Jenkins should validate the pushed revision before merge.
-- Merge only after all three checks are green: local Playwright, local Docker build, and Jenkins validation.
+- Merge only after all three checks are green: local Playwright, local Docker build, and Jenkins validation, with Jenkins itself running Docker validation first on merge candidates.
 - Obsidian task notes should record the local validation command, the Docker result, the Jenkins result, and the final merge decision.
 
 ## Why This Vault Lives Inside The Repo

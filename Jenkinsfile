@@ -39,6 +39,23 @@ pipeline {
       }
     }
 
+    stage('Docker Validation') {
+      when {
+        not {
+          triggeredBy 'TimerTrigger'
+        }
+      }
+      steps {
+        script {
+          if (isUnix()) {
+            sh 'docker build -t ai-agentic-project-jenkins .'
+          } else {
+            bat 'docker build -t ai-agentic-project-jenkins .'
+          }
+        }
+      }
+    }
+
     stage('Change-Based Validation') {
       when {
         not {
