@@ -120,6 +120,4 @@ Create a standalone Jenkins Pipeline job for this repo instead of attaching it t
 - `tests/e2e/portfolio-demo.spec.ts`: main end-to-end scenarios
 - `tests/e2e/negative/portfolio-demo-negative.spec.ts`: one validation-focused negative test
 - `md/Infestracture-Reasoning.md`: shared handoff and architecture note for the demo repo
-- `md/LOCAL_SETUP_WINDOWS.md`: private machine-specific setup guide, ignored by Git
-- `md/CODEX_CHAT_PROMPTS.md`: private prompt library, ignored by Git
-- `md/LOCAL_ENTERPRISE_RULES.md`: private infrastructure rules for personal use, ignored by Git
+
