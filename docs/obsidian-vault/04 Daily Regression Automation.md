@@ -40,7 +40,7 @@ Work only inside this repository. Do not inspect, modify, validate, or report on
 Read these Markdown files for context:
 - AGENTS.md
 - README.md
-- Infestracture-Reasoning.md
+- md/Infestracture-Reasoning.md
 - docs/obsidian-vault/00 Home.md
 - docs/obsidian-vault/01 Project Map.md
 - docs/obsidian-vault/02 Test Map.md

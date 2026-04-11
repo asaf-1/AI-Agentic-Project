@@ -67,8 +67,8 @@ pipeline {
           def docOnlyFiles = [
             'README.md',
             'AGENTS.md',
-            'CODEX_CHAT_PROMPTS.md',
-            'Infestracture-Reasoning.md'
+            'md/CODEX_CHAT_PROMPTS.md',
+            'md/Infestracture-Reasoning.md'
           ] as Set
           def candidateRefs = [(env.PLAYWRIGHT_BASE_REF ?: '').trim(), 'origin/main', 'HEAD~1'].findAll { it }
           def baseRef = null

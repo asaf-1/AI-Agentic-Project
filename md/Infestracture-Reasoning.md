@@ -73,7 +73,7 @@ This section is the shortest way to explain what each important file is for.
 | `tests/e2e/portfolio-demo.spec.ts` | Contains the main happy-path user journeys. | Verifies the primary business flows succeed end to end. |
 | `tests/e2e/negative/portfolio-demo-negative.spec.ts` | Contains the negative validation case. | Verifies failure handling and form validation behavior. |
 | `.vscode/launch.json` | Defines the VS Code launcher for Playwright Inspector. | Makes local debugging easier from the editor. |
-| `Infestracture-Reasoning.md` | Documents the structure, reasoning, folder purpose, and test intent. | Interview and handoff explanation document. |
+| `md/Infestracture-Reasoning.md` | Documents the structure, reasoning, folder purpose, and test intent. | Interview and handoff explanation document. |
 
 ## Quick File Explanation
 
@@ -94,7 +94,7 @@ This section says the same thing in a simple spoken format: file name, what it d
 - `tests/e2e/portfolio-demo.spec.ts`: contains the main successful user journeys. Why: it verifies the most important business flows end to end.
 - `tests/e2e/negative/portfolio-demo-negative.spec.ts`: contains the invalid-input scenario. Why: it verifies that the system fails correctly and shows proper validation.
 - `.vscode/launch.json`: defines the VS Code launcher for Playwright Inspector. Why: it makes local debugging easier without building commands manually.
-- `Infestracture-Reasoning.md`: explains the structure of the repo and the reasoning behind it. Why: it helps during interviews, demos, and handoff discussions.
+- `md/Infestracture-Reasoning.md`: explains the structure of the repo and the reasoning behind it. Why: it helps during interviews, demos, and handoff discussions.
 
 ## Which Files Are Source Code vs Generated
 
@@ -113,7 +113,7 @@ This section says the same thing in a simple spoken format: file name, what it d
 - `tests/e2e/portfolio-demo.spec.ts`
 - `tests/e2e/negative/portfolio-demo-negative.spec.ts`
 - `.vscode/launch.json`
-- `Infestracture-Reasoning.md`
+- `md/Infestracture-Reasoning.md`
 
 ### Files or folders that are generated or installed
 
