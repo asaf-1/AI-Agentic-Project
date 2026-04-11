@@ -15,6 +15,7 @@
 - For code that is pushed to GitHub and intended for merge, treat Jenkins validation on the pushed revision as the required gate before merge.
 - The merge rule for this repo is: local validation passed, local Docker validation passed, and Jenkins validation passed on the pushed code before merge.
 - For merge candidates, Jenkins should run Docker validation before the Playwright validation on the pushed revision.
+- For broader infrastructure or company-scale work, also follow `docs/obsidian-vault/05 Enterprise Infrastructure Rules.md`.
 
 ## Editing Rules
 

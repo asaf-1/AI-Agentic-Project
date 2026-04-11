@@ -8,6 +8,7 @@ This folder is the Obsidian vault for the Agentic AI demo project.
 - [[02 Test Map]]
 - [[03 Agent and Obsidian Workflow]]
 - [[04 Daily Regression Automation]]
+- [[05 Enterprise Infrastructure Rules]]
 - [[Reports/README]]
 - [[Templates/Task Note]]
 - [[Tasks/001 Vault Bootstrap]]

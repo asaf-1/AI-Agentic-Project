@@ -44,3 +44,8 @@
 - Data is in-memory only
 - The demo is local-only
 - The test suite depends on the local server started by Playwright
+
+## Governance
+
+- [[05 Enterprise Infrastructure Rules]] is the reusable baseline for enterprise-style infrastructure, QA, and automation work
+- Local-only personal overrides should stay in ignored files outside GitHub

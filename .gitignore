@@ -5,6 +5,8 @@ test-results/
 .codex/
 .env
 .env.*
+CODEX_CHAT_PROMPTS.md
+LOCAL_PERSONAL_OVERRIDES.md
 docs/obsidian-vault/Reports/*
 !docs/obsidian-vault/Reports/README.md
 docs/obsidian-vault/.obsidian/

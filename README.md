@@ -73,6 +73,7 @@ Agentic AI Demo is a local-first portfolio project that shows how to pair a smal
 
 - Keep repo rules in `AGENTS.md`
 - Keep task scope and acceptance criteria in `docs/obsidian-vault/Tasks/`
+- For enterprise or company-scale infrastructure work, start from `docs/obsidian-vault/05 Enterprise Infrastructure Rules.md`
 - Use the prompt pattern:
 
   `Read docs/obsidian-vault/Tasks/<task-file>.md, implement it, run the listed validation, and update the note with the result.`
@@ -106,6 +107,7 @@ Create a standalone Jenkins Pipeline job for this repo instead of attaching it t
 
 - The preview credentials in this repo are fake demo values for the local sample UI and automated tests
 - Do not commit real `.env` files, personal Codex config, IDE config, or generated report files
+- Keep local-only prompt libraries and personal overrides in ignored files such as `CODEX_CHAT_PROMPTS.md` and `LOCAL_PERSONAL_OVERRIDES.md`
 - If you need a personal setup guide, keep it outside the repo
 
 ## Local Details That Matter
@@ -116,4 +118,3 @@ Create a standalone Jenkins Pipeline job for this repo instead of attaching it t
 - `framework/test-data/demoData.ts`: reusable test data for positive and negative flows
 - `tests/e2e/portfolio-demo.spec.ts`: main end-to-end scenarios
 - `tests/e2e/negative/portfolio-demo-negative.spec.ts`: one validation-focused negative test
-
