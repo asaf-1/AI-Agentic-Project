@@ -16,12 +16,14 @@
 - The merge rule for this repo is: local validation passed, local Docker validation passed, and Jenkins validation passed on the pushed code before merge.
 - For merge candidates, Jenkins should run Docker validation before the Playwright validation on the pushed revision.
 - For broader infrastructure or company-scale work, also follow `docs/obsidian-vault/05 Enterprise Infrastructure Rules.md`.
+- For multi-platform or multi-product work, also follow `docs/obsidian-vault/05 Enterprise Infrastructure Rules.md` and keep scope explicit in the task note.
 
 ## Editing Rules
 
 - Keep the demo local-only.
 - Preserve existing `data-testid` hooks unless the task explicitly changes them.
 - Keep the Obsidian vault content aligned with the current codebase when adding or changing product flows.
+- For multi-platform or multi-product work, keep scope explicit in the task note and do not assume settings from one platform apply to another.
 - Keep the project Obsidian vault project-specific only. Personal Codex usage notes and personal workflow guides should stay outside the vault.
 
 ## Automation Rules

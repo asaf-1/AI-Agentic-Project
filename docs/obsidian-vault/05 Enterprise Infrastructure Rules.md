@@ -29,10 +29,31 @@ Use this note as the reusable operating contract for infrastructure, platform, Q
 6. Validate the pushed revision in Jenkins before merge
 7. Record the result in the relevant Obsidian task note
 
+## Multi-Platform And Multi-Product Scope
+
+- Treat each platform or product as a separate scope unless the user explicitly says they share the same release path
+- Confirm the active platform or product before changing code, docs, CI, credentials, or environment settings
+- Keep shared baseline rules in this note and keep product-specific implementation details in the relevant task notes
+- If a request spans multiple products or platforms, split the work into separate task notes and separate validation steps
+- Do not reuse branch names, Jenkins jobs, Docker tags, environment files, or secrets across products unless the user explicitly approves that reuse
+
+## Shared-By-Design Setup
+
+- Prefer configuration that another developer can clone and adapt with their own usernames, secrets, ports, and CI access
+- Use placeholders such as `your token here` only when showing where a real secret belongs
+- Keep personal overrides in ignored local files, not in shared repo notes
+- Separate shared defaults, local overrides, and CI-only settings in the documentation
+
+## AI Reading Contract
+
+- Read the scope first, then the impacted platform or platforms, then the validation path
+- If required context is missing, stop and ask instead of guessing
+- For infrastructure changes, plan shared baseline, local validation, Docker validation, Jenkins validation, then merge gating
+- Summarize decisions in the task note so future agents can continue the same product without replaying the whole thread
+
 ## Collaboration Rules
 
 - Do not change versions or environments without explicit approval
 - Do not push, merge, or alter remote settings without approval
 - Do not introduce secrets, personal notes, or machine-specific config into shared docs
 - Ask first for important decisions and highlight tradeoffs clearly
-

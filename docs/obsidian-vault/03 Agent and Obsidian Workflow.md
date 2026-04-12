@@ -30,6 +30,13 @@ Obsidian and the agent work together through plain files.
 - For non-timer Jenkins validation, run the repo in Docker first and then run the matching Playwright validation before merge.
 - Each user should connect their own Codex thread, daily automation, and standalone Jenkins job. Those machine-specific settings should live outside the repo.
 
+## Multi-Platform And Multi-Product Work
+
+- Keep one Obsidian task note per platform or product so scope stays explicit
+- If a request spans more than one platform or product, split it into separate task notes and separate validation steps
+- Do not reuse CI, branch, or environment assumptions from one platform for another unless the task note says they are intentionally shared
+- Use `docs/obsidian-vault/05 Enterprise Infrastructure Rules.md` as the shared baseline for all platform or product variants
+
 ## Pre-Merge Rule
 
 - Before push from a local clone, the local pre-push gate should pass: `npm run test:e2e` and a Docker build for the current repo.

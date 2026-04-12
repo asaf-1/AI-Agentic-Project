@@ -8,6 +8,7 @@ Agentic AI Demo is a local-first portfolio project that shows how to pair a smal
 - Keep task scope and implementation notes in the repo through Obsidian vault files
 - Keep the codebase easy to validate locally, in Docker, and in Jenkins
 - Stay public-safe so other people can clone it and use their own setup without inheriting yours
+- If you expand this into multiple products or platforms, keep each scope in its own task note and use the shared enterprise baseline in `docs/obsidian-vault/05 Enterprise Infrastructure Rules.md`
 
 ## What Is In The Repo
 

@@ -48,4 +48,5 @@
 ## Governance
 
 - [[05 Enterprise Infrastructure Rules]] is the reusable baseline for enterprise-style infrastructure, QA, and automation work
+- For multiple products or platforms, create separate task notes and keep shared rules centralized in [[05 Enterprise Infrastructure Rules]]
 - Local-only personal overrides should stay in ignored files outside GitHub
